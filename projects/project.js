@@ -39,7 +39,7 @@ const Projects = [
     {
         name : "FoodyShop",
         about : "A reciepe searching app where we can search any dish and get all ingrediant details and process of making",
-        img : "../images/foodyshop.png",
+        img : "images/foodyShop.png",
         gitrepo : "https://github.com/AnshulKumarYadav/foodyShop",
         tech_stack : "HTML | CSS | JAVASCRIPT | API's",
         tech_stackicons : [
@@ -105,14 +105,7 @@ mern_projects.addEventListener("click", () => {
     // other_projects.classList.remove("active_tech_project")
     html_projects.classList.remove("active_tech_project")
 })
-// other_projects.addEventListener("click", () => {
-//     filterProjects("other");
-//     all_projects.classList.remove("active_tech_project")
-//     react_projects.classList.remove("active_tech_project")
-//     mern_projects.classList.remove("active_tech_project")
-//     // other_projects.classList.add("active_tech_project")
-//     html_projects.classList.remove("active_tech_project")
-// })
+
 html_projects.addEventListener("click", () => {
     filterProjects("html");
     all_projects.classList.remove("active_tech_project")

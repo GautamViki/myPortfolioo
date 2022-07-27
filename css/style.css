@@ -298,9 +298,10 @@ ul
     justify-content: space-around;
     background-color: var(--bg-black-100);
 }
-.aside .nav{
+.aside .navhead .nav{
     /* border: 1px solid red; */
-    width: 50%;
+    width: 70%;
+    margin: auto;
 }
 .aside ul{
     display: flex;
@@ -349,78 +350,19 @@ ul
     top: 0;
     right: 0;
 }
-.aside .nav-toggler
-{
-    height: 40px;
-    width: 45px;
-    border: 1px solid var(--bg-black-50);
-    cursor: pointer;
-    position: fixed;
-    left: 300px;
-    top: 20px;
-    border-radius: 5px;
-    background: var(--bg-black-100);
-    display: none;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-.aside .nav-toggler span
-{
-    height: 2px;
-    width: 18px;
-    background: var(--skin-color);
-    display: inline-block;
-    position: relative;
-}
-.aside .nav-toggler.open span
-{
-    background-color: transparent;
-}
-.aside .nav-toggler span::before
-{
-    content: '';
-    height: 2px;
-    width: 18px;
-    background: var(--skin-color);
-    position: absolute;
-    top: -6px;
-    left: 0;
-}
-.aside .nav-toggler.open span::before
-{
-    transform: rotate(45deg);
-    top: 0;
-}
-.aside .nav-toggler span::after
-{
-    content: '';
-    height: 2px;
-    width: 18px;
-    background: var(--skin-color);
-    position: absolute;
-    top: 6px;
-    left: 0;
-}
-.aside .nav-toggler.open span::after
-{
-    transform: rotate(-45deg);
-    top: 0;
-}
-.aside .nav li a
+
+.aside .navhead .nav li a
 {
     font-size: 16px;
     font-weight: 600;
-    display: block;
     border-bottom: 1px solid var(--bg-black-50);
     color: var(--text-black-900);
     padding: 5px 15px;
 }
-.aside .nav li a.active
-{
-    color: var(--skin-color);
+.aside .navhead .nav li a.active{
+    color : var(--skin-color);
 }
-.aside .nav li a i
+.aside .navhead .nav li a i
 {
     margin-right: 15px;
 }
@@ -685,8 +627,8 @@ h3.my-profession
     padding-left: 10%;
 }
 .about_me img{
-    width: 85%;
-    height: 100%;
+    width: 80%;
+    height: 90%;
     border-top-right-radius: 40%;
     border-bottom-left-radius: 40%;
     
@@ -1048,30 +990,9 @@ h3.my-profession
     {
         padding-top: 70px;
     }
-    .aside
-    {
-        left: -270px;
-    }
-    .aside.open 
-    {
-        left: 0;
-    }
-    .aside .nav-toggler
-    {
-        display: flex;
-        left: 30px;
-    }
-    .aside .nav-toggler.open 
-    {
-        left: 300px;
-    }
     .section
     {
         left: 0;
-    }
-    .section.open 
-    {
-        left: 270px;
     }
     .about .about-content .personal-info .info-item p span 
     {

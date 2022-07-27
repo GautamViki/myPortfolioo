@@ -19,47 +19,6 @@ const skills = [
         icon_url : "../images/bootstrap.png",
         category : ["all", "frontend"]
     },
-    // {
-    //     name: "REACT",
-    //     icon_url : "https://img.icons8.com/color/50/000000/react-native.png",
-    //     category : ["all", "frontend"]
-    // },
-    // {
-    //     name: "REDUX",
-    //     icon_url : "https://img.icons8.com/color/48/000000/redux.png",
-    //     category : ["all", "frontend"]
-    // },
-    // {
-    //     name: "Material-UI",
-    //     icon_url : "https://img.icons8.com/color/50/000000/material-ui.png",
-    //     category : ["all", "frontend"]
-    // },
-    // {
-    //     name: "Tailwind CSS",
-    //     icon_url : "../images/tailwindcss-icon.svg",
-    //     category : ["all", "frontend"]
-    // },
-    // {
-    //     name: "MONGODB",
-    //     icon_url : "https://img.icons8.com/color/50/000000/mongodb.png",
-    //     category : ["all", "backend"]
-    // },
-    // {
-    //     name: "MONGOOSE",
-    //     icon_url : "../images/mongoose.png",
-    //     category : ["all", "backend"]
-    // },
-    // {
-    //     name: "EXPRESS",
-    //     // icon_url : "https://img.icons8.com/color/48/000000/express.png",
-    //     icon_url : "../images/ExpressJS.png",
-    //     category : ["all", "backend"]
-    // },
-    // {
-    //     name: "NODEJS",
-    //     icon_url : "https://img.icons8.com/windows/48/000000/node-js.png",
-    //     category : ["all", "backend"]
-    // },
     {
         name: "Postman",
         icon_url : "../images/postman.png",
@@ -85,16 +44,6 @@ const skills = [
         icon_url : "../images/aws.png",
         category : ["all", "backend"]
     }
-    // {
-    //     name: "NPM",
-    //     icon_url : "https://img.icons8.com/color/48/000000/npm.png",
-    //     category : ["all", "frontend, backend"]
-    // },
-    // {
-    //     name: "Rest API",
-    //     icon_url : "https://img.icons8.com/nolan/64/api-settings.png",
-    //     category : ["all", "backend"]
-    // },
 ]
 
 let myTechnicalSkills = document.getElementById("myTechnicalSkills");
