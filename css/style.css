@@ -1033,6 +1033,10 @@ h3.my-profession
         display: flex;
         flex-direction: column-reverse;
     }
+    .about_me img{
+        width: 0;
+        height: 0;
+    }
 }
 @media (max-width:767px)
 
