@@ -83,7 +83,7 @@ const Projects = [
 let projects__container = document.getElementById("projects--container")
 
 let all_projects = document.querySelector(".all_projects")
-let react_projects = document.querySelector(".react_projects");
+
 let mern_projects = document.querySelector(".mern_projects");
 // let other_projects = document.querySelector(".other_projects");
 let html_projects = document.querySelector(".html_projects")
@@ -93,14 +93,6 @@ all_projects.addEventListener("click", () => {
     filterProjects("all");
     all_projects.classList.add("active_tech_project")
     react_projects.classList.remove("active_tech_project")
-    mern_projects.classList.remove("active_tech_project")
-    // other_projects.classList.remove("active_tech_project")
-    html_projects.classList.remove("active_tech_project")
-})
-react_projects.addEventListener("click", () => {
-    filterProjects("react");
-    all_projects.classList.remove("active_tech_project")
-    react_projects.classList.add("active_tech_project")
     mern_projects.classList.remove("active_tech_project")
     // other_projects.classList.remove("active_tech_project")
     html_projects.classList.remove("active_tech_project")

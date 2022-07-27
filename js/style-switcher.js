@@ -45,19 +45,3 @@ window.addEventListener("load", () => {
     }
 })
 
-const dayNight2 = document.querySelector(".day-night2");
-dayNight2.addEventListener("click", () => {
-    dayNight.querySelector("i").classList.toggle("fa-sun");
-    dayNight.querySelector("i").classList.toggle("fa-palette");
-    document.body.classList.toggle("blue");
-})
-window.addEventListener("load", () => {
-    if(document.body.classList.contains("blue"))
-    {
-        dayNight2.querySelector("i").classList.add("fa-sun");
-    }
-    else
-    {
-        dayNight2.querySelector("i").classList.add("fa-palette");
-    }
-})
