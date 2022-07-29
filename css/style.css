@@ -1138,9 +1138,12 @@ h3.my-profession
         display: flex;
         flex-direction: column-reverse;
     }
-    .about_me img{
-        width: 0;
-        height: 0;
+    #about-img{
+        display: none;
+    }
+    .about-me:nth-child(1)
+    {
+        width: 100%;
     }
 }
 @media (max-width:767px)
@@ -1210,7 +1213,18 @@ h3.my-profession
 }
 
 
-@media (max-width:555px) {
+@media (max-width:557px) {
+
+    .edu_cont{
+        width: 45%;
+    }
+    .edu_cont h4{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .edu_cont p{
+        font-size: 9px;
+    }
     
     .about___info{
     display: flex;
@@ -1243,6 +1257,7 @@ h3.my-profession
 }
 
 @media (max-width:565px) {
+    
     h3.hello span {
         font-size: 32px;
     }
