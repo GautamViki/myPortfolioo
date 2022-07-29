@@ -37,6 +37,7 @@ body
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
+    cursor: url(../images/cursor.png), auto;
 }
 ::before,::after
 {
@@ -265,7 +266,7 @@ ul
     margin-right: -15px;
     position: relative;
 }
-.btn
+/* .btn
 {
     font-size: 16px;
     font-weight: 500;
@@ -275,9 +276,82 @@ ul
     display: inline-block;
     white-space: nowrap;
     border: none;
-    background: var(--skin-color);
     transition: all 0.3s ease;
+    background: var(--skin-color);
+    
+   
+} */
+
+.btn{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    /* top: 10%; */
+    margin-top: 20px;
+    left: 8%;
+    border-radius: 5px;
+    overflow: hidden;
 }
+.btn:before{
+    content: "";
+    height: 100%;
+    width: 150%;
+    position: absolute;
+    background: conic-gradient(
+        #fd004c,
+        #fe9000,
+        #fff020,
+        #3edf4b,
+        #3363ff,
+        #b102b7,
+        #fd004c
+    );
+    left: -25%;
+    top: -25%;
+    animation: spin 1.5s infinite linear;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.btn:after{
+    content: "Hire me";
+    position: absolute;
+    background-color: var(--skin-color);
+    height: 93%;
+    width: 93%;
+    top: 3.5%;
+    left: 3.5%;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: grid;
+    place-items: center;
+
+}
+#send_msg::after{
+    content: "Send Message";
+}
+#resume{
+    width: 100px;
+    left: 6%;
+}
+#resume::after{
+    content: "Resume";
+}
+#hire{
+    width: 120px;
+    margin-top: 3px;
+    left: 10%;
+}
+
 .btn:hover
 {
     transform: scale(1.05);
@@ -615,24 +689,55 @@ h3.my-profession
     border-bottom: 2px dotted var(--text-black-700);
     color: var(--text-black-700);
     /* border: 1px solid red; */
+    width: 100%;
 }
 .about_me>div{
     /* border: 1px solid teal; */
-    width: 80%;
-    margin-bottom: 3%;
+    width: 60%;
 }
-.about_me>div:nth-child(2){
-    width: 40%;
-    height: 100%;
-    padding-left: 10%;
-}
-.about_me img{
-    width: 80%;
-    height: 90%;
+#about-img{
+    height: 250px;
+    width: 250px;
+    transform: translate(-30%,-8%);
     border-top-right-radius: 40%;
     border-bottom-left-radius: 40%;
-    
-    
+    overflow: hidden;
+
+}
+#about-img:before{
+    content: "";
+    height: 100%;
+    width: 150%;
+    position: absolute;
+    background: conic-gradient(
+        var(--skin-color) 20deg,
+            transparent 150deg
+    );
+    left: -25%;
+    top: -5%;
+    animation: spin 1.5s infinite linear;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+#about-img:after{
+    content: "";
+    position: absolute;
+    background-image: url("https://github.com/AnshulKumarYadav/AnshulKumarYadav/raw/main/assets/WhatsApp%20Image%202022-07-22%20at%209.22.30%20AM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 93%;
+    width: 93%;
+    top: 3.5%;
+    left: 3.5%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+
 }
 .row h4{
     color: var(--text-black-700);
@@ -1208,3 +1313,4 @@ subheading : 32px */
     background-color: var(--skin-color);
     border-radius: 5px;
 }
+
