@@ -688,11 +688,9 @@ h3.my-profession
     align-items: center;
     border-bottom: 2px dotted var(--text-black-700);
     color: var(--text-black-700);
-    /* border: 1px solid red; */
     width: 100%;
 }
 .about_me>div{
-    /* border: 1px solid teal; */
     width: 60%;
 }
 #about-img{
@@ -1141,7 +1139,7 @@ h3.my-profession
     #about-img{
         display: none;
     }
-    .about_me:nth-child(1)
+    .about_me>div:nth-child(1)
     {
         width: 100%;
         font-size: 12px;
