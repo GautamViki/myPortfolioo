@@ -36,7 +36,7 @@ const skills = [
     },
     {
         name: "Maven",
-        icon_url : "images/maven.png",
+        icon_url : "https://www.simplilearn.com/ice9/free_resources_article_thumb/Maven.png",
         category : ["all", "backend"]
     },
     {
