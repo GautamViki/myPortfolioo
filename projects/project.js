@@ -1,10 +1,48 @@
 const Projects = [
 
+ 
     {
-        name : "Clone of BobbiBrown.com",
-        about : "BobbiBrown providing branded cosmetics products online, makeup kit online. In this project, I was leading my team and majorly worked on Home page, Product page, Signin functionality, Cart page, Wishlist and Payment page.",
-        img : "https://miro.medium.com/max/1050/1*jdopOSsDRiGDWu9M3GviCQ.png",
-        gitrepo : "https://github.com/AnshulKumarYadav/bobbibrown",
+        name : "Clone of BestBuy",
+        about: "Best Buy is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota. You can buy all electronics products from here. Collaborative Project along with 6 developers. Tech Stack - Java Script, Html, CSS, Bootstrap.",
+        img : "images/bestbuy.png",
+        gitrepo : "https://github.com/AnshulKumarYadav/bestbuy",
+        tech_stack : "HTML | CSS | JAVASCRIPT | API's",
+        tech_stackicons : [
+            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+            `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
+            
+        ],
+        project_link : "https://anshulkumaryadav.github.io/bestbuy/",
+        project_type : "Indivisual Project",
+        category : ["all", "html"],
+
+    },
+    
+    {
+        name : "Disney+",
+        about : "Disney+ is an American subscription video on-demand over-the-top streaming service owned and operated by the Media and Entertainment Distribution division of The Walt Disney Company. At this website you can watch your favorite movies and shows.Tech Stack - Java Script, Html, CSS, Bootstrap and API",
+        img : "images/Disney.png",
+        gitrepo : "https://github.com/GautamViki/Hotstar",
+        tech_stack : "HTML | CSS | JAVASCRIPT | API's",
+        tech_stackicons : [
+            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+            `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
+            
+        ],
+        project_link : "https://gautamviki.github.io/Hotstar/",
+        project_type : "Indivisual Project",
+        category : ["all", "html"],
+
+    },
+    {
+        name : "Clone of Dermstore.com",
+        about : "Dermstore is a skin care and beauty e-commerce site in the United States. This application allows to buy beauty products. Collaborative Project along with 6 developers. Tech Stack - Java Script, Html, CSS, Bootstrap",
+        img : "images/dermstore.png",
+        gitrepo : "https://github.com/GautamViki/DermStore",
         tech_stack : "HTML | CSS | JAVASCRIPT",
         tech_stackicons : [
             `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
@@ -12,69 +50,12 @@ const Projects = [
             `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
             
         ],
-        project_link : "https://anshulkumaryadav.github.io/BobbiBrown/",
+        project_link : "https://gautamviki.github.io/DermStore/",
         project_type : "Team Project",
         category : ["all", "html"],
 
     },
    
-    {
-        name : "Clone of YouTube",
-        about: "A frontend clone of YouTube, where in the home page user will find popular videos of YouTube and also can search for the desired videos it will show all the videos related to search on the result page.",
-        img : "https://miro.medium.com/max/700/1*nhm4FnPWW69oTAEPT02umQ.png",
-        gitrepo : "https://github.com/AnshulKumarYadav/youtube",
-        tech_stack : "HTML | CSS | JAVASCRIPT | API's",
-        tech_stackicons : [
-            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-            `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
-            
-        ],
-        project_link : "https://anshulkumaryadav.github.io/youtube/",
-        project_type : "Indivisual Project",
-        category : ["all", "html"],
-
-    },
-    {
-        name : "FoodyShop",
-        about : "A reciepe searching app where we can search any dish and get all ingrediant details and process of making",
-        img : "images/foodyShop.png",
-        gitrepo : "https://github.com/AnshulKumarYadav/foodyShop",
-        tech_stack : "HTML | CSS | JAVASCRIPT | API's",
-        tech_stackicons : [
-            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-            `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
-            
-        ],
-        project_link : "https://anshulkumaryadav.github.io/foodyShop/",
-        project_type : "Indivisual Project",
-        category : ["all", "html"],
-
-    },
-    {
-        name : "Wheather app",
-        about : "Nykaa is a beauty retail companythat sells cosmetic commodities online. In this project, I was leading my team and majorly worked on Home page, Product page, Signin functionality, Cart and Wishlist page.",
-        img : "../images/wheather.png",
-        gitrepo : "https://github.com/AnshulKumarYadav/weatherApp",
-        video : "",
-        tech_stack : " HTML | CSS | JavaScript |",
-        tech_stackicons : [
-        `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-        `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-        `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-
-        ],
-        project_link : "https://anshulkumaryadav.github.io/weatherApp/",
-        project_type : "Indivisual Project",
-        category : ["all", "html", "other"]
-    },
-  
-    
-  
-    
 ]
 
 

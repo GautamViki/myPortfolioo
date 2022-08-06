@@ -1,13 +1,13 @@
 /* ============================== typing animation ============================ */
 var typed = new Typed(".typing",{
-    strings:["","Software Developer...","Web Developer...",],
+    strings:["","Software Developer...","Backend Developer...",],
     typeSpeed:70,
     BackSpeed:60,
     loop:true
 })
 
 var typedName = new Typed(".name",{
-    strings:["","Anshul Kumar Yadav and my nickname is Rishabh","",],
+    strings:["","Vikas Kumar Gautam","",],
     typeSpeed:300,
     BackSpeed:30,
     loop:true
