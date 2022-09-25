@@ -1,25 +1,36 @@
 const Projects = [
-
- 
     {
-        name : "Clone of BestBuy",
-        about: "Best Buy is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota. You can buy all electronics products from here. Collaborative Project along with 6 developers. Tech Stack - Java Script, Html, CSS, Bootstrap.",
-        img : "images/bestbuy.png",
-        gitrepo : "https://github.com/AnshulKumarYadav/bestbuy",
-        tech_stack : "HTML | CSS | JAVASCRIPT | API's",
+        name : "Clone of Dermstore.com",
+        about : "Dermstore is a skin care and beauty e-commerce site in the United States. This application allows to buy beauty products. Collaborative Project along with 6 developers. Tech Stack - Java Script, Html, CSS, Bootstrap",
+        img : "images/dermstore.png",
+        gitrepo : "https://github.com/GautamViki/DermStore",
+        tech_stack : "HTML | CSS | JAVASCRIPT | BOOTSTRAP | JQUERY",
         tech_stackicons : [
             `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
             `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
             `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-            `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
             
         ],
-        project_link : "https://anshulkumaryadav.github.io/bestbuy/",
-        project_type : "Indivisual Project",
+        project_link : "https://gautamviki.github.io/DermStore/",
+        project_type : "Team Project",
         category : ["all", "html"],
-
     },
-    
+    {
+        name : "REST API for an Online Food Application",
+        about : "We have developed this REST API for an Online Food Booking application. This API performs all the fundamental CRUD operations of any Online Food Booking platform with user validation at every step. Tech Stack - Java, SpringBoot, MySQL, Swagger UI, Spring Framework and Maven",
+        img : "images/OnlineFoodPlaza.png",
+        gitrepo : "https://github.com/GautamViki/OnlineFoodPlaza",
+        tech_stack : "JAVA | SPRINGBOOT | MYSQL | SWAGGER UI | SPRING FRAMEWORK | MAVEN",
+        tech_stackicons : [
+            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+            
+        ],
+        // project_link : "https://gautamviki.github.io/DermStore/",
+        project_type : "Team Project",
+        category : ["all", "mern"],
+    },
     {
         name : "Disney+",
         about : "Disney+ is an American subscription video on-demand over-the-top streaming service owned and operated by the Media and Entertainment Distribution division of The Walt Disney Company. At this website you can watch your favorite movies and shows.Tech Stack - Java Script, Html, CSS, Bootstrap and API",
@@ -36,26 +47,42 @@ const Projects = [
         project_link : "https://gautamviki.github.io/Hotstar/",
         project_type : "Indivisual Project",
         category : ["all", "html"],
-
     },
     {
-        name : "Clone of Dermstore.com",
-        about : "Dermstore is a skin care and beauty e-commerce site in the United States. This application allows to buy beauty products. Collaborative Project along with 6 developers. Tech Stack - Java Script, Html, CSS, Bootstrap",
-        img : "images/dermstore.png",
-        gitrepo : "https://github.com/GautamViki/DermStore",
-        tech_stack : "HTML | CSS | JAVASCRIPT",
+        name : "Mini Movie App",
+        about: "This is the mini Movies app application. In this application you can search your favourite movie here and see all details of the movie. Tech Stack - Java Script, Html, CSS, Bootstrap and OMDB API.",
+        img : "images/MiniMovieApp.png",
+        gitrepo : "https://github.com/GautamViki/OMDBMovieMiniApp",
+        tech_stack : "HTML | CSS | JAVASCRIPT | API's",
         tech_stackicons : [
             `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
             `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
             `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+            `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
             
         ],
-        project_link : "https://gautamviki.github.io/DermStore/",
+        project_link : "https://gautamviki.github.io/OMDBMovieMiniApp/",
+        project_type : "Indivisual Project",
+        category : ["all", "html"],
+    },
+    {
+        name : "Clone of BestBuy",
+        about: "Best Buy is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota. You can buy all electronics products from here. Collaborative Project along with 6 developers. Tech Stack - Java Script, Html, CSS, Bootstrap.",
+        img : "images/bestbuy.png",
+        gitrepo : "https://github.com/AnshulKumarYadav/bestbuy",
+        tech_stack : "HTML | CSS | JAVASCRIPT | API's",
+        tech_stackicons : [
+            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+            `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+            `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`
+            
+        ],
+        project_link : "https://anshulkumaryadav.github.io/bestbuy/",
         project_type : "Team Project",
         category : ["all", "html"],
 
-    },
-   
+    },   
 ]
 
 
@@ -105,7 +132,7 @@ function filterProjects(basis) {
 
 function displayProjectData(Projects) {
     projects__container.innerHTML = null;
-Projects.reverse().forEach(pro => {
+Projects.forEach(pro => {
     let main = document.createElement("div")
     main.setAttribute("class", "portfolio-item padd-15")
     main.innerHTML = `
